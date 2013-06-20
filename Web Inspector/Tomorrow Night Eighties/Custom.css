@@ -660,3 +660,7 @@ border-top: 1px solid hsl(210,6%,12%)!important;
 ,#-webkit-web-inspector .text-editor-contents::-webkit-scrollbar-corner{
  background-color: transparent;
 }
+
+#-webkit-web-inspector #settings-screen .help-window-main, #-webkit-web-inspector #drawer-contents .help-window-main, #-webkit-web-inspector .settings-tab .help-section-title {
+  color: #fff !important
+}
