@@ -664,3 +664,10 @@ border-top: 1px solid hsl(210,6%,12%)!important;
 #-webkit-web-inspector #settings-screen .help-window-main, #-webkit-web-inspector #drawer-contents .help-window-main, #-webkit-web-inspector .settings-tab .help-section-title {
   color: #fff !important
 }
+
+#-webkit-web-inspector .split-view-sidebar .split-view-contents-first {
+  width: 100% !important;
+}
+#-webkit-web-inspector .split-view-sidebar .split-view-contents-second {
+  display: none !important;
+}
