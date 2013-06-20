@@ -226,7 +226,8 @@ ignore{
   }
 
   #-webkit-web-inspector #elements-content .editing {
-    background-color: #242424 !important;
+    background-color: #fff !important;
+    color: #333
 
   }
 
@@ -295,7 +296,7 @@ ignore{
     color: /*tomorroe-night-Comment*/hsl(0,0%,60%) !important;
   }
 
-  #-webkit-web-inspector .webkit-css-selector,.styles-selector {
+  #-webkit-web-inspector .webkit-css-selector,.styles-selector,  #-webkit-web-inspector .selector-matches {
     color: /*tomorroe-night-Yellow*/hsl(40,100%,70%)!important;
   }
 
@@ -364,35 +365,6 @@ ignore{
   text-shadow: #000 0 1px 0!important;
 }
 /* Status Bar*/
-#-webkit-web-inspector #main-status-bar{
-  background:#444!important;
-}
-
-#-webkit-web-inspector .crumbs .crumb.selected{
-  color:/*tomorroe-night-Foreground*/hsl(0,0%,80%)!important;
-  text-shadow: #000 0 1px 0!important;
-}
-#-webkit-web-inspector .crumbs .crumb{
-  color:#000!important;
-  text-shadow: #555 0 1px 0!important;
-}
-
-select.status-bar-item:active{
-  color:hsl(0,0%,80%)!important;
-}
-select.status-bar-item{
-  color:hsl(0,0%,80%)!important;
-  text-shadow:#000 0 1px 0!important;
-  background:#777!important;
-  -webkit-border-image: url(Images/statusbarMenuButtonChromium.png) 0 17 0 2!important;
-}
-#-webkit-web-inspector button.status-bar-item {
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsl(0, 0%, 59%)), to(hsl(0,0%,80%)))!important;
-}
-#-webkit-web-inspector .status-bar{
-  background:#444!important;
-
-}
 
 select.status-bar-item {
 background: /*tomorroe-night-Background*/hsl(0,0%,18%)!important;
@@ -558,9 +530,9 @@ color:/*tomorroe-night-Background*/hsl(210, 6%, 15%) !important;
 }
 
 #-webkit-web-inspector .editing, #-webkit-web-inspector .editing * {
-    outline: 1px solid /*tomorroe-night-Background*/hsl(210,6%,12%)!important;
-    background-color: /*tomorroe-night-Foreground*/hsl(0,0%,80%)!important;
-    color: /* whiter foreground to make editing visible */hsl(210,6%,88%)!important;
+    outline: none !important;
+    background-color:#fff !important;
+    color: #333!important;
 }
 
 
@@ -571,13 +543,13 @@ color:/*tomorroe-night-Background*/hsl(210, 6%, 15%) !important;
 
 #-webkit-web-inspector .section .properties .name.editing
 ,#-webkit-web-inspector .webkit-css-property.editing{
-  color:/*tomorroe-night-Background*/hsl(0,0%,18%)!important;
+  color:#333 !important;
 }
 #-webkit-web-inspector .child-editing
 ,#-webkit-web-inspector #elements-content .editing,
 ,#-webkit-web-inspector .editing{
-    background-color: /*tomorroe-night-Foreground*/hsl(0,0%,80%)!important;
-    color: /*tomorroe-night-Background*/hsl(0,0%,18%)!important;
+    background-color: #fff !important;
+    color: #333 !important;
 }
 
 #-webkit-web-inspector .text-editor-lines {
